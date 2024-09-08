@@ -1128,6 +1128,10 @@ img.--image-width-100 {
     row-gap: 48px;
 }
 
+.--row-gap-60 {
+    row-gap: 60px;
+}
+
 /* #endregion */
 
 /* #region [global][layout][flex-wrap] */
