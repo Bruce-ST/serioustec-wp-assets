@@ -972,6 +972,10 @@ img.--image-width-100 {
     justify-content: space-between;
 }
 
+._column.--v-align-end {
+    justify-content: end;
+}
+
 ._row.--v-align-center {
     align-items: center;
 }
@@ -986,6 +990,10 @@ img.--image-width-100 {
 
 ._row.--h-align-space-around {
     justify-content: space-around;
+}
+
+._row.--h-align-end {
+    justify-content: end;
 }
 
 /* #endregion  */
