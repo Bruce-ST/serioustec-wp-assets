@@ -1,0 +1,304 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* #region [Buttons] */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+{
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: var(--text-default-color);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: var(--border-radius-less);
+    border: 1px solid var(--black-24);
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus
+{
+    color: var(--text-default-color);
+    border-color: var(--black-40);
+    outline: 0;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary
+{
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus
+{
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+}
+  
+button:disabled,
+.button-primary:disabled {
+    background-color: var(--black-8);
+    border-color: var(--black-8);
+    color: white;
+}
+
+button:disabled,
+.button-primary:disabled:hover {
+    background-color: var(--black-8);
+    border-color: var(--black-8);
+    color: white;
+    cursor: default;
+}
+
+/* #endregion */
+
+/* #region [General] */
+  
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select 
+{
+    font-family: var(--primary-font-family);
+    font-size: var(--default-font-size);
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #fff;
+    border: 1px solid var(--black-16);
+    border-radius: var(--border-radius-less);
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    min-height: 65px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus
+  {
+    border: 1px solid #33C3F0;
+    outline: 0;
+}
+
+label,
+legend
+{
+    display: block;
+    font-weight: 600;
+}
+
+fieldset {
+    padding: 0;
+    border-width: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"]
+{
+    display: inline;
+}
+
+label > .label-body
+{
+    display: inline-block;
+    font-weight: normal;
+}
+
+/* #endregion */
+
+/* #region [readonly and placeholders] */
+
+input:read-only,
+textarea:read-only
+{
+    color: hsl(215deg 15% 76%)
+}
+
+input::placeholder,
+textarea::placeholder
+{
+    color: hsl(215deg 15% 60%)
+}
+
+/* #endregion */
+
+/* #region [Lists] */
+
+ul {
+    list-style: circle inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul
+{
+    /* margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%; */
+}
+
+li {
+    /* margin-bottom: 1rem; */
+}
+
+/* #endregion */
+
+/* #region [code] */
+
+code {
+    white-space: nowrap;
+    background: var(--black-40);
+    border: 1px solid var(--black-40) ;
+    border-radius: var(--border-radius-less);
+    color: white;
+}
+
+pre > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre; 
+}
+
+/* #endregion */
+
+/* #region [table] */
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+th:first-child,
+td:first-child
+{
+    padding-left: 0;
+}
+
+th:last-child,
+td:last-child
+{
+    padding-right: 0;
+}
+  
+/* #endregion */
+
+/* #region inputs with icons */
+
+div.input-with-div {
+    height: 38px;
+    width: 38px;
+    background-color: #fff;
+    border: 1px solid var(--black-16);
+    border-radius: var(--border-radius-less);
+    line-height: 1em;
+    display: flex;    
+}
+
+div.input-with-div.--left {
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+    border-right-width: 0;
+}
+
+input.input-with-div.--left {
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0 ;
+}
+
+div.input-with-div.--right {
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0 ;
+    border-left-width: 0;
+}
+
+input.input-with-div.--right {
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+}
+
+/* #endregion */
+
+

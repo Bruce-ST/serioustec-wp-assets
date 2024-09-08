@@ -1,0 +1,121 @@
+:root {
+    --rajah         : #f9b659;
+    --sky-blue      : #33C3F0;
+}
+
+.preloader {
+    display: none;
+    height: 54px;
+    z-index: 1000;
+}
+
+.preloader.vue {
+    display: block;
+}
+
+.search-in-progress {
+    position: relative;
+    width: 100%;
+    height: inherit;
+}
+
+.search-in-progress-wrap {
+    /* background-color: rgba(243, 244, 246, 0.8); */
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.search-in-progress-loader {
+    background-color: var(--rajah);
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.preloader.--sky-blue .search-in-progress-loader {
+    background-color: var(--sky-blue);
+}
+  
+.search-in-progress-loader .loader {
+    border: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+  
+.search-in-progress-loader .loader-inner {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100%;
+    transform-origin: 50% 100%;
+    vertical-align: top;
+    width: 100%;
+}
+  
+.search-in-progress .loader {
+    animation: 4s ease 0s infinite normal none running loader;
+}
+  
+.search-in-progress .loader-inner {
+    animation: 4s ease-in 0s infinite normal none running loader-inner;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(1turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        transform: scaleY(0);
+    }
+
+    25% {
+        transform: scaleY(0);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+
+    75% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(0);
+    }
+}
+  

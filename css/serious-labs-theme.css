@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* #region [global][general] */
+
+body {
+    margin: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+/* #endregion */
+
+/* #region [global][typography] */
+
+:root {
+    --primary-font-family : "IBM Plex Sans", sans-serif;
+    --default-font-size: .875rem /* 14px */
+}
+
+@media(max-width: 1024px){
+
+    :root {
+        --default-font-size: 1rem /* 16px */
+    }
+
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: var(--default-font-size)
+}
+
+.--body-small {
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 600; 
+}
+
+h2 {
+    font-weight: 600; 
+}
+
+h3 {
+    font-weight: 400; 
+}
+
+h4 {
+    font-weight: 400; 
+}
+
+h5 {
+    font-weight: 400; 
+}
+
+h6 {
+    font-weight: 400; 
+}
+/* #endregion */
+
+/* #region [global][colors] */
+
+:root {
+    --black-96: hsl(215deg 15% 4%);
+    --black-88: hsl(215deg 15% 12%);
+    --black-80: hsl(215deg 15% 20%);
+    --black-72: hsl(215deg 15% 28%);
+    --black-60: hsl(215deg 15% 40%);
+    --black-40: hsl(215deg 15% 60%);
+    --black-24: hsl(215deg 15% 76%);
+    --black-16: hsl(215deg 15% 84%);
+    --black-8: hsl(215deg 15% 92%);
+    --black-4: hsl(215deg 15% 96%);
+    --black-2: hsl(215deg 15% 98%);
+
+}
+
+/* #endregion */
+
+/* #region [global][background colors] */
+
+.--bg-white {
+    background-color: white;
+}
+
+.--bg-black-96 {
+    background-color: var(--black-96);
+}
+
+.--bg-black-88 {
+    background-color: var(--black-88);
+}
+
+.--bg-black-80 {
+    background-color: var(--black-80);
+}
+
+.--bg-black-72 {
+    background-color: var(--black-72);
+}
+
+.--bg-black-60 {
+    background-color: var(--black-60);
+}
+
+.--bg-black-40 {
+    background-color: var(--black-40);
+}
+
+.--bg-black-24 {
+    background-color: var(--black-24);
+}
+
+.--bg-black-16 {
+    background-color: var(--black-16);
+}
+
+.--bg-black-8 {
+    background-color: var(--black-8);
+}
+
+.--bg-black-4 {
+    background-color: var(--black-4);
+}
+
+.--bg-black-2 {
+    background-color: var(--black-2);
+}
+
+/* #endregion */
+
+/* #region [global][text colors] */
+ 
+.--text-default-color {
+    color: var(--black-72)
+}
+
+body {
+    color: var(--text-default-color);
+}
+
+.--text-color-gray {
+    color: var(--black-40);
+}
+
+.--text-color-light-gray {
+    color: var(--black-24);
+}
+
+.--text-color-white {
+    color: white;
+}
+
+.--text-color-black-96 {
+    color: var(--black-96);
+}
+
+.--text-color-black-72 {
+    color: var(--black-72);
+}
+
+.--text-color-black-60 {
+    color: var(--black-60);
+}
+
+.--text-color-black-40 {
+    color: var(--black-40);
+}
+
+.--text-color-black-24 {
+    color: var(--black-24);
+}
+
+.--text-color-black-16 {
+    color: var(--black-16);
+}
+
+.--text-color-black-8 {
+    color: var(--black-8);
+}
+
+.--text-color-black-4 {
+    color: var(--black-4);
+}
+
+.--text-color-black-2 {
+    color: var(--black-2);
+}
+
+
+/* #endregion */
+
+/* #region [global][border-colors */
+
+.--border.--black-2 {
+    border-color: var(--black-2)
+}
+
+.--border.--black-4 {
+    border-color: var(--black-4)
+}
+
+.--border.--black-8 {
+    border-color: var(--black-8)
+}
+
+.--border.--black-16 {
+    border-color: var(--black-16)
+}
+
+.--border.--black-24 {
+    border-color: var(--black-24)
+}
+
+.--border.--black-40 {
+    border-color: var(--black-40)
+}
+
+.--border-bottom.--black-2 {
+    border-color: var(--black-2)
+}
+
+.--border-bottom.--black-4 {
+    border-color: var(--black-4)
+}
+
+.--border-bottom.--black-16 {
+    border-color: var(--black-16)
+}
+
+.--border-bottom.--black-8 {
+    border-color: var(--black-8)
+}
+
+.--border-bottom.--black-24 {
+    border-color: var(--black-24)
+}
+
+.--border-bottom.--black-40 {
+    border-color: var(--black-40)
+}
+
+.--border-top.--black-2 {
+    border-color: var(--black-2)
+}
+
+.--border-top.--black-4 {
+    border-color: var(--black-4)
+}
+
+.--border-top.--black-16 {
+    border-color: var(--black-16)
+}
+
+.--border-top.--black-8 {
+    border-color: var(--black-8)
+}
+
+.--border-top.--black-24 {
+    border-color: var(--black-24)
+}
+
+.--border-top.--black-40 {
+    border-color: var(--black-40)
+}
+
+.--border-left.--black-2 {
+    border-color: var(--black-2)
+}
+
+.--border-left.--black-4 {
+    border-color: var(--black-4)
+}
+
+.--border-left.--black-16 {
+    border-color: var(--black-16)
+}
+
+.--border-left.--black-8 {
+    border-color: var(--black-8)
+}
+
+.--border-left.--black-24 {
+    border-color: var(--black-24)
+}
+
+.--border-left.--black-40 {
+    border-color: var(--black-40)
+}
+
+.--border-right.--black-2 {
+    border-color: var(--black-2)
+}
+
+.--border-right.--black-4 {
+    border-color: var(--black-4)
+}
+
+.--border-right.--black-16 {
+    border-color: var(--black-16)
+}
+
+.--border-right.--black-8 {
+    border-color: var(--black-8)
+}
+
+.--border-right.--black-24 {
+    border-color: var(--black-24)
+}
+
+.--border-right.--black-40 {
+    border-color: var(--black-40)
+}
+
+/* #endregion */
+
+/* #region [global][border-radius] */
+
+:root {
+    --border-radius-less: 4px; /* default for skeleton forms */
+    --border-radius-normal: 6px;
+    --border-radius-more: 9px;
+}
+
+
+.--border-radius-less {
+    border-radius: var(--border-radius-less);
+}
+
+.--border-radius-normal {
+    border-radius: var(--border-radius-normal);
+}
+
+.--border-radius-more {
+    border-radius: var(--border-radius-more);
+}
+
+/* #endregion */
+
+/* #region [global][a links] */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+/* #endregion */

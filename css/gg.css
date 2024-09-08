@@ -1,0 +1,322 @@
+:root {
+    --ggs: .8;
+  }
+
+/* #region button icon */  
+.icon-button {
+    height: 24px;
+    width: 24px;
+    border-radius: var(--border-radius-less);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .3s;
+    color: var(--black-40)!important;
+}
+
+.icon-button:hover {
+    color: #33C3F0!important;
+    cursor: pointer;
+}
+
+.icon-button.--small {
+    height: 24px;
+    width: 24px;
+    --ggs: .7;
+}
+
+/* #endregion */
+
+/* #region Copy */  
+.gg-copy {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 18px;
+    border: 2px solid;
+    margin-left: -5px;
+    margin-top: -4px
+  }
+  .gg-copy::after,
+  .gg-copy::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+  }
+  .gg-copy::before {
+    background:
+        linear-gradient( to left,
+            currentColor 5px, transparent 0)
+            no-repeat right top/5px 2px,
+        linear-gradient( to left,
+            currentColor 5px, transparent 0)
+            no-repeat left bottom/ 2px 5px;
+    box-shadow: inset -4px -4px 0 -2px;
+    bottom: -6px;
+    right: -6px;
+    width: 14px;
+    height: 18px
+  }
+  .gg-copy::after {
+    width: 6px;
+    height: 2px;
+    background: currentColor;
+    left: 2px;
+    top: 2px;
+    box-shadow: 0 4px 0,0 8px 0
+  }
+
+/* #endregion */
+
+/* #region external */
+
+.gg-external {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 12px;
+    box-shadow:
+    -2px 2px 0 0,
+    -4px -4px 0 -2px,
+    4px 4px 0 -2px;
+    margin-left: -2px;
+    margin-top: 1px
+}
+   
+.gg-external::after,
+.gg-external::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: -4px
+}
+   
+.gg-external::before {
+    background: currentColor;
+    transform: rotate(-45deg);
+    width: 12px;
+    height: 2px;
+    top: 1px
+}
+   
+.gg-external::after {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    top: -4px
+} 
+
+/* #endregion */
+
+/* #region Arrow left in circle <i class="gg-arrow-left-o"></i> */
+
+.gg-arrow-left-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 22px
+}
+.gg-arrow-left-o::after,
+.gg-arrow-left-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 4px
+}
+.gg-arrow-left-o::after {
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6px
+}
+.gg-arrow-left-o::before {
+    width: 10px;
+    height: 2px;
+    bottom: 8px;
+    background: currentColor
+}
+
+/* #endregion */
+
+/* #region Arrow right in circle <i class="gg-arrow-right-o"></i> */
+
+.gg-arrow-right-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 20px
+}
+.gg-arrow-right-o::after,
+.gg-arrow-right-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 4px
+}
+.gg-arrow-right-o::after {
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6px
+}
+.gg-arrow-right-o::before {
+    width: 10px;
+    height: 2px;
+    bottom: 8px;
+    background: currentColor
+}
+
+/* #endregion */
+
+/* #region more vertical (3 dots) <i class="gg-more-vertical-alt"></i> */
+
+.gg-more-vertical-alt {
+    transform: scale(var(--ggs,1))
+   }
+   
+   .gg-more-vertical-alt,
+   .gg-more-vertical-alt::after,
+   .gg-more-vertical-alt::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 100%
+   }
+   
+   .gg-more-vertical-alt::after,
+   .gg-more-vertical-alt::before {
+    content: "";
+    position: absolute
+   }
+   
+   .gg-more-vertical-alt::after {
+    left: 0;
+    top: 6px
+   }
+   
+   .gg-more-vertical-alt::before {
+    top: -6px;
+    right: 0
+   } 
+
+/* #endregion */
+
+/* #region more horizonal (3 dots) <i class="gg-more-alt"></i> */
+
+.gg-more-alt {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-more-alt,
+.gg-more-alt::after,
+.gg-more-alt::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 100%
+}
+
+.gg-more-alt::after,
+.gg-more-alt::before {
+    content: "";
+    position: absolute;
+    top: 0
+}
+
+.gg-more-alt::after {
+    left: -6px
+}
+
+.gg-more-alt::before {
+    right: -6px
+} 
+
+/* #endregion */
+
+/* #region Chevron Down in Circle <i class="gg-chevron-down-o"></i> */
+
+.gg-chevron-down-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 100px
+}
+.gg-chevron-down-o::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 5px
+}
+
+/* #endregion */
+
+/* #region Chevron Up in Circle <i class="gg-chevron-up-o"></i> */
+
+.gg-chevron-up-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 100px
+}
+.gg-chevron-up-o::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(-45deg);
+    left: 6px;
+    bottom: 5px
+}
+
+/* #endregion */
+
+/* #region Arrow right in circle <i class="gg-arrow-right-o"></i> */
+
+/* #endregion */
+
