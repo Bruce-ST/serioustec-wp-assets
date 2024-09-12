@@ -984,6 +984,10 @@ img.--image-width-100 {
     align-items: center;
 }
 
+._row.--v-align-end {
+    align-items: end;
+}
+
 ._row.--h-align-space-between {
     justify-content: space-between;
 }
