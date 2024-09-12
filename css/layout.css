@@ -252,7 +252,7 @@
 
 /* #endregion */
 
-/* #region [global][style] display: none */
+/* #region [global][style] display: none and block */
 
 .--hide {
     display: none!important;
@@ -260,6 +260,10 @@
 
 .--display-none {
     display: none!important;
+}
+
+.--display-block {
+    display: block!important;
 }
 
 @media(max-width: 1024px){
