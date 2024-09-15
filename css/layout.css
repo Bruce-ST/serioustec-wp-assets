@@ -290,6 +290,10 @@
     border: 1px solid gray;
 }
 
+.--border.--border-dasheded {
+    border-style: dashed;
+}
+
 .--border-top {
     border-top: 1px solid gray;
 }
