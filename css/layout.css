@@ -5,6 +5,7 @@
     --alert : #f39c12;
     --success-subtle : hsl(168deg 75% 96%);
     --warning : #e74c3c;
+    --warning-subtle : hsl(6deg 74% 68%);
 }
 
 /* #endregion */
