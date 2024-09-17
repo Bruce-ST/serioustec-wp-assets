@@ -65,6 +65,11 @@ h5 {
 h6 {
     font-weight: 400; 
 }
+
+.--bold {
+    font-weight: 700;
+}
+
 /* #endregion */
 
 /* #region [global][colors] */
