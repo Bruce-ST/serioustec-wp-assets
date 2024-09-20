@@ -26,6 +26,26 @@
 
 /* #endregion */
 
+/* #region [global[text-colors] */
+
+.--text-color-white {
+    color: white;
+}
+
+.--text-color-warning {
+    color: var(--warning)
+}
+
+.--text-color-alert {
+    color: var(--alert)
+}
+
+.--text-color-success {
+    color: var(--success)
+}
+
+/* #endregion */
+
 /* #region [global][style] heights */
 
 .--h-fit-content {
