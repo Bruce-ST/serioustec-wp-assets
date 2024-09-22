@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.icon-button.--round:hover {
+    border-color: #33C3F0!important;
+}
+
 .icon-button.--small {
     height: 24px;
     width: 24px;
