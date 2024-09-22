@@ -17,6 +17,8 @@
 .icon-button.--round {
     border-radius: 100%;
     border: 1px solid var(--black-40);
+    height: 28px;
+    width: 28px;
 }
 
 .icon-button:hover {
