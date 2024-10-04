@@ -860,6 +860,11 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+._grid-min-200-px-max-300-px{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+}
+
 .--column-gap-16 {
     column-gap: 16px;
 }
