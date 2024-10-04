@@ -855,6 +855,11 @@
     grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
+._grid-min-200-px-max-1-fr{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
 .--column-gap-16 {
     column-gap: 16px;
 }
