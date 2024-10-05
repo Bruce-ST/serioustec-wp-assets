@@ -369,6 +369,14 @@
 
 /* #endregion */
 
+/* #region */
+
+.--pointer-on-hover:hover {
+    cursor: pointer;
+}
+
+/* #endregion */
+
 /* #region [global][margins] */
 
 .--margin-0 {
