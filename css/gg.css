@@ -36,6 +36,10 @@
     --ggs: .7;
 }
 
+.icon-button.--active {
+    border-color: #33C3F0!important;
+}
+
 /* #endregion */
 
 /* #region Copy */  
