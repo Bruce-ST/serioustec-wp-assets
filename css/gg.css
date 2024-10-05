@@ -14,6 +14,7 @@
     color: var(--black-40)!important;
 }
 
+
 .icon-button.--round {
     border-radius: 100%;
     border: 1px solid var(--black-40);
@@ -40,7 +41,7 @@
     border-color: #33C3F0!important;
 }
 
-.icon-button.--active i {
+.icon-button.--active {
     color: #33C3F0!important;
 }
 
