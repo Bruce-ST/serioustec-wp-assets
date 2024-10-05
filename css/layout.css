@@ -863,9 +863,9 @@
     grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
-._grid-min-200-px-max-1-fr{
+._grid-min-256-px-max-1-fr{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
 }
 
 ._grid-min-200-px-max-300-px{
