@@ -40,6 +40,10 @@
     border-color: #33C3F0!important;
 }
 
+.icon-button.--active i {
+    color: #33C3F0!important;
+}
+
 /* #endregion */
 
 /* #region Copy */  
