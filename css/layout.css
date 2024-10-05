@@ -1008,6 +1008,14 @@ img.--image-width-100 {
     overflow: hidden;
 }
 
+.--overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.--overflow-y-hidden {
+    overflow-y: hidden;
+}
+
 .--overflow-y-auto {
     overflow-y: auto;
 }
