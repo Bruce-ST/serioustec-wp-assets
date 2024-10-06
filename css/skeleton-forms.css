@@ -183,7 +183,8 @@ label > .label-body
 input:read-only,
 textarea:read-only
 {
-    color: hsl(215deg 15% 76%)
+    color: hsl(215deg 15% 76%);
+    background-color: hsl(215deg 15% 96%);
 }
 
 input::placeholder,
