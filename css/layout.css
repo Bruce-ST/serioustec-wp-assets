@@ -305,6 +305,14 @@
 
 /* #endregion */
 
+/* #region */
+
+.--opacity-0 {
+    opacity: 0;
+}
+
+/* #endregion */
+
 /* #region [global][style] borders */
 
 .--border {
