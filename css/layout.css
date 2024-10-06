@@ -1,6 +1,7 @@
 /* #region [global][colors] */
 
 :root {
+    --accent-color: var(--accent-color);
     --success : hsl(168deg 75% 40%);
     --alert : #f39c12;
     --success-subtle : hsl(168deg 75% 96%);

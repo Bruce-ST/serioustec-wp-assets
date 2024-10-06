@@ -56,8 +56,8 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary
 {
     color: #FFF;
-    background-color: #33C3F0;
-    border-color: #33C3F0;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .button.button-primary:hover,
@@ -148,7 +148,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus
   {
-    border: 1px solid #33C3F0;
+    border: 1px solid var(--accent-color);
     outline: 0;
 }
 

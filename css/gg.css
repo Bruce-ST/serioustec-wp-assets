@@ -23,12 +23,12 @@
 }
 
 .icon-button:hover {
-    color: #33C3F0!important;
+    color: var(--accent-color)!important;
     cursor: pointer;
 }
 
 .icon-button.--round:hover {
-    border-color: #33C3F0!important;
+    border-color: var(--accent-color)!important;
 }
 
 .icon-button.--small {
@@ -38,8 +38,8 @@
 }
 
 .icon-button.--active {
-    border-color: #33C3F0!important;
-    color: #33C3F0!important;
+    border-color: var(--accent-color)!important;
+    color: var(--accent-color)!important;
 }
 
 /* #endregion */
