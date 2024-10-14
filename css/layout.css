@@ -372,6 +372,10 @@
     text-align: right;
 }
 
+.--text-align-justify{
+    text-align: justify;
+}
+
 .--no-break {
     white-space: nowrap;
 }
