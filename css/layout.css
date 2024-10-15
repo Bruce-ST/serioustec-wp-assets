@@ -669,6 +669,10 @@
     padding-bottom: 0px;
 }
 
+.--padding-left-24 {
+    padding-left: 24px;
+}
+
 .--padding-left-16 {
     padding-left: 16px;
 }
@@ -687,6 +691,10 @@
 
 .--padding-left-0 {
     padding-left: 0px;
+}
+
+.--padding-right-24 {
+    padding-right: 24px;
 }
 
 .--padding-right-16 {
