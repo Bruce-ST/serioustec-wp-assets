@@ -1226,6 +1226,10 @@ img.--image-width-100 {
         gap: 8px;
     }
 
+    .--gap-16-s {
+        gap: 16px;
+    }
+
     .--gap-24-s {
         gap: 24px;
     }
