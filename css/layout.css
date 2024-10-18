@@ -743,11 +743,11 @@
 @media(max-width: 767px){
 
     .--padding-8-s {
-        padding-right: 8px;
+        padding: 8px;
     }
 
     .--padding-16-s {
-        padding-right: 16px;
+        padding: 16px;
     }
 
 }
