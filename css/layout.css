@@ -1060,6 +1060,14 @@ img.--image-width-100 {
     overflow-x: auto;
 }
 
+@media(max-width: 767px){
+
+    .--overflow-x-auto-s {
+        overflow-x: auto;
+    }
+
+}
+
 /* #endregion */
 
 /* #region [global][layout] align - horizontally  */
