@@ -740,6 +740,19 @@
 
 }
 
+@media(max-width: 767px){
+
+    .--padding-right-8-s {
+        padding-right: 8px;
+    }
+
+    .--padding-right-16-s {
+        padding-right: 16px;
+    }
+
+
+}
+
 /* #endregion */
 
 /* #region [global][layout] page paddings and content width - before rows and columns */
