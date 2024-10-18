@@ -380,9 +380,17 @@
     white-space: nowrap;
 }
 
+@media(max-width: 767px){
+
+    .--no-break-s {
+        white-space: nowrap;
+    }   
+
+}
+
 /* #endregion */
 
-/* #region */
+/* #region [global[pointer] */
 
 .--pointer-on-hover:hover {
     cursor: pointer;
@@ -588,7 +596,6 @@
 .--padding-top-40 {
     padding-top: 40px;
 }
-
 .--padding-top-32 {
     padding-top: 32px;
 }
