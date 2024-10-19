@@ -589,6 +589,14 @@
     padding: 32px;
 }
 
+.--padding-40 {
+    padding: 40px;
+}
+
+.--padding-60 {
+    padding: 60px;
+}
+
 .--padding-top-60 {
     padding-top: 60px;
 }
