@@ -278,6 +278,14 @@
 
 /* #endregion */
 
+/* #region [global][style] fixed width */
+
+.--w-400-px {
+    width: 400px;
+}
+
+/* #endregion */
+
 /* #region [global][style] display: none and block */
 
 .--hide {
