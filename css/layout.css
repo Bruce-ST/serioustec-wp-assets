@@ -1366,6 +1366,15 @@ ul.--list-no-style {
     padding-inline-start: 0;
 }
 
+ol.--list-no-style {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
 /* #endregion */
 
 /* #region [global][images][object-fit] */
