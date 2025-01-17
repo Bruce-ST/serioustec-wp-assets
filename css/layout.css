@@ -318,10 +318,18 @@
 
 /* #endregion */
 
-/* #region */
+/* #region [global][opacity] */
 
 .--opacity-0 {
     opacity: 0;
+}
+
+/* #endregion */
+
+/* #region [global][border-radius] */
+
+.--border-radius-100 {
+    border-radius: 100%;
 }
 
 /* #endregion */
