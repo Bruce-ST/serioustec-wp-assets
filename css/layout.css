@@ -1405,6 +1405,26 @@ img.--image-width-100 {
     flex-shrink: 0;
 }
 
+@media(max-width: 767px){
+
+    .--flex-grow-1-s {
+        flex-grow: 1;
+    }
+    
+    .--flex-grow-0-s {
+        flex-grow: 0;
+    }
+    
+    .--flex-shrink-1-s {
+        flex-shrink: 1;
+    }
+    
+    .--flex-shrink-0-s {
+        flex-shrink: 0;
+    }
+
+}
+
 /* #endregion */
 
 /* #region [global][component] list unstyled */
