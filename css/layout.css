@@ -1158,6 +1158,14 @@ img.--image-width-100 {
         overflow-x: auto;
     }
 
+    .--overflow-y-hidden-s {
+        overflow-y: hidden;
+    }
+
+    .--overflow-x-hidden-s {
+        overflow-x: hidden;
+    }
+
 }
 
 /* #endregion */
