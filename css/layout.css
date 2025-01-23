@@ -832,7 +832,7 @@
 
     :root {
         /* layout */
-        --page-padding: 16px;
+        --page-padding: 8px;
     }
 
 }
