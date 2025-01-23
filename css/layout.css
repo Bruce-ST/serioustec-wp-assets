@@ -826,6 +826,10 @@
         padding: 16px;
     }
 
+    .--padding-top-8-s {
+        padding-top: 8px;
+    }
+
 }
 
 /* #endregion */
