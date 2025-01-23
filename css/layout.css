@@ -400,6 +400,22 @@
     white-space: nowrap;
 }
 
+@media(max-width: 1024px){
+
+    .--text-align-left-m{
+        text-align: left;
+    }
+
+    .--text-align-center-m{
+        text-align: center;
+    }
+
+    .--text-align-right-m{
+        text-align: right;
+    }
+
+}
+
 @media(max-width: 767px){
 
     .--no-break-s {
