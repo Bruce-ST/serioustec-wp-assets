@@ -810,6 +810,14 @@
 
 @media(max-width: 767px){
 
+    .--padding-2-s {
+        padding: 2px;
+    }
+
+    .--padding-4-s {
+        padding: 4px;
+    }
+
     .--padding-8-s {
         padding: 8px;
     }
