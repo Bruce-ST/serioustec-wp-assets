@@ -860,6 +860,14 @@
         padding-bottom: 8px;
     }
 
+    .--padding-left-8-s {
+        padding-left: 8px;
+    }
+
+    .--padding-left-4-s {
+        padding-left: 4px;
+    }
+
 }
 
 /* #endregion */
