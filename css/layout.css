@@ -830,6 +830,10 @@
         padding-top: 8px;
     }
 
+    .--padding-bottom-8-s {
+        padding-bottom: 8px;
+    }
+
 }
 
 /* #endregion */
@@ -1308,6 +1312,10 @@ img.--image-width-100 {
 
     .--gap-0-s {
         gap: 0;
+    }
+
+    .--gap-4-s {
+        gap: 4px;
     }
 
     .--gap-8-s {
