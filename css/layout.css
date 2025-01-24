@@ -320,6 +320,16 @@
 
 }
 
+/* hides only on tablet  */
+@media(max-width: 1024px) and (min-width: 678px){
+
+    .--hide-m-only {
+        display: none!important;
+    }
+
+}
+
+/* hides on mobile also */
 @media(max-width: 1024px){
 
     .--hide-m {
