@@ -312,6 +312,14 @@
     display: block!important;
 }
 
+@media(min-width: 1025px){
+
+    .--hide-l {
+        display: none!important;
+    }
+
+}
+
 @media(max-width: 1024px){
 
     .--hide-m {
