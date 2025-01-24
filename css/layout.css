@@ -321,7 +321,7 @@
 }
 
 /* hides only on tablet  */
-@media(max-width: 1024px) and (min-width: 678px){
+@media(max-width: 1024px) and (min-width: 768px){
 
     .--hide-m-only {
         display: none!important;
