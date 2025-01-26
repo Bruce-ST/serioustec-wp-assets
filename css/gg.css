@@ -12,6 +12,7 @@
     justify-content: center;
     transition-duration: .3s;
     color: var(--black-40)!important;
+    cursor: pointer;
 }
 
 .icon-button.--auto {
@@ -28,7 +29,6 @@
 
 .icon-button:hover {
     color: var(--accent-color)!important;
-    cursor: pointer;
 }
 
 .icon-button.--round:hover {
