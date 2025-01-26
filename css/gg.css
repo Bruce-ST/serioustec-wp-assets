@@ -46,6 +46,15 @@
     color: var(--accent-color)!important;
 }
 
+@media (hover: none) and (pointer: coarse) {
+    .icon-button {
+      /* Remove hover-specific styles for touch devices */
+      color: initial;
+      border-color: initial;
+
+    }
+  }
+
 /* #endregion */
 
 /* #region Copy */  
