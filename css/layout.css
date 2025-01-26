@@ -318,7 +318,7 @@
 
 @media(min-width: 1025px){
 
-    .--hide-l {
+    .--hide-l-only {
         display: none!important;
     }
 
