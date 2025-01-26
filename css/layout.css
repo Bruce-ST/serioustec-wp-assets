@@ -410,6 +410,26 @@
     border-color: var(--success)
 }
 
+@media(max-width: 767px){
+
+    .--border-right-0-s {
+        border-right-width: 0;
+    }
+
+    .--border-left-0-s {
+        border-left-width: 0;
+    }
+
+    .--border-top-0-s {
+        border-top-width: 0;
+    }
+
+    .--border-bottom-0-s {
+        border-bottom-width: 0;
+    }
+
+}
+
 /* #endregion */
 
 /* #region [global][style] text-attributes */
@@ -878,6 +898,14 @@
 
     .--padding-left-4-s {
         padding-left: 4px;
+    }
+
+    .--padding-right-8-s {
+        padding-right: 8px;
+    }
+
+    .--padding-right-4-s {
+        padding-right: 4px;
     }
 
 }
