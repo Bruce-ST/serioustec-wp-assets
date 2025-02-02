@@ -3,7 +3,7 @@
   }
 
 /* #region button icon */  
-.icon-button {
+._icon-button {
     height: 24px;
     width: 24px;
     border-radius: var(--border-radius-less);
@@ -15,43 +15,43 @@
     cursor: pointer;
 }
 
-.icon-button.--auto {
+._icon-button.--auto {
     width: auto;
     height: auto;
 }
 
-.icon-button.--round {
+._icon-button.--round {
     border-radius: 100%;
     border: 1px solid var(--black-40);
     height: 28px;
     width: 28px;
 }
 
-.icon-button.--square {
+._icon-button.--square {
     border-radius: 0;
 }
 
-.icon-button:hover {
+._icon-button:hover {
     color: var(--accent-color)!important;
 }
 
-.icon-button.--round:hover {
+._icon-button.--round:hover {
     border-color: var(--accent-color)!important;
 }
 
-.icon-button.--small {
+._icon-button.--small {
     height: 24px;
     width: 24px;
     --ggs: .7;
 }
 
-.icon-button.--active {
+._icon-button.--active {
     border-color: var(--accent-color)!important;
     color: var(--accent-color)!important;
 }
 
 @media (hover: none) and (pointer: coarse) {
-    .icon-button {
+    ._icon-button {
       /* Remove hover-specific styles for touch devices */
       color: initial;
       border-color: initial;
