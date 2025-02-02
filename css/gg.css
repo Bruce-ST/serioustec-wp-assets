@@ -27,6 +27,10 @@
     width: 28px;
 }
 
+.icon-button.--square {
+    border-radius: 0;
+}
+
 .icon-button:hover {
     color: var(--accent-color)!important;
 }
