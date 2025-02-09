@@ -1069,6 +1069,11 @@
     grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
+._grid-10-columns {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
 ._grid-min-256-px-max-1-fr{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
