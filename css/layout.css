@@ -1573,6 +1573,10 @@ ul.--list-no-style {
     text-transform: italic;
 }
 
+.--underline {
+    text-decoration: underline;
+}
+
 /* #endregion */
 
 /* #region [global][custom form elements] */
