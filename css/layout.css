@@ -55,6 +55,16 @@
 
 /* #endregion */
 
+/* #region [global][ellipses] */
+
+.--ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* #endregion */
+
 /* #region [global][style] heights */
 
 .--h-fit-content {
