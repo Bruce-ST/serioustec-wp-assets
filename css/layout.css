@@ -30,7 +30,7 @@
 }
 
 .--bg-warning-subtle {
-    background-color: var(--bg-warning-subtle);
+    background-color: var(--warning-subtle);
 }
 
 /* #endregion */
