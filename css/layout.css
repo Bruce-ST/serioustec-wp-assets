@@ -29,6 +29,10 @@
     background-color: var(--warning);
 }
 
+.--bg-warning-subtle {
+    background-color: var(--bg-warning-subtle);
+}
+
 /* #endregion */
 
 /* #region [global[text-colors] */
