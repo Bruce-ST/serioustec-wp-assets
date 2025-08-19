@@ -371,14 +371,15 @@ a:visited {
     color: inherit;
 }
 
-a._link {
+a._link,
+a._link:visited
+{
     color: var(--black-60);
 }
 
-a._link:hover,
-a._link:visited
+a._link:hover
 {
-    color: var(--accent-color);
+    color: var(--accent-color)!important;
 }
 
 /* #endregion */
