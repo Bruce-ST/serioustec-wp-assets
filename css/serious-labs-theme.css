@@ -282,6 +282,18 @@ body {
     border-color: var(--black-40)
 }
 
+.--border-top.--black-60 {
+    border-color: var(--black-60)
+} 
+
+.--border-top.--black-72 {
+    border-color: var(--black-72)
+}
+
+.--border-top.--black-80 {
+    border-color: var(--black-80)
+}
+
 .--border-top.--black-88 {
     border-color: var(--black-88)
 }
