@@ -282,6 +282,10 @@ body {
     border-color: var(--black-40)
 }
 
+.--border-top.--black-88 {
+    border-color: var(--black-88)
+}
+
 .--border-left.--black-2 {
     border-color: var(--black-2)
 }
